@@ -1,6 +1,7 @@
 body {
     background-color: #1A1639;
     font-family: 'Fragment Mono', monospace;
+    text-align: center;
 }
 
 .body-wrapped {
@@ -9,22 +10,31 @@ body {
     margin: 15px;
 }
 
-table {
-    border: 10px solid #4C4A5F;
-    color: rgba(76, 74, 95, 0.90);
-    text-align: center;
-    align-items: center;
-    font-size: 50pt;
-    margin: auto auto;
+.num-fin, p {
+    color: #f0f8ffe6;
+    font-size: 30pt;
+    margin-bottom: 5px;
+    display: inline-block;
 }
 
-td p {
+.mas {
+    color: #82c301f2;
+}
+
+table {
+    border: 10px solid #4C4A5F;
+    color: #4c4a5fe6;
+    margin: auto auto;
+    align-items: center;
+}
+
+td, p {
     padding: 8px;
     margin: 0%;
 }   
 
 .numero-1 {
-    color: #3C77DC;
+    color: #E53A62;
 
 }
 
@@ -34,10 +44,10 @@ td p {
 }
 
 .numero-3 {
-    color: #3C77DC;
+    color: #E53A62;
 
 }
 
 .numero-4 {
-    color: #E53A62;
+    color: #3C77DC;
 }
