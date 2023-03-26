@@ -10,9 +10,9 @@ body {
     margin: 15px;
 }
 
-.num-fin, p {
+.num-fin > p {
     color: #f0f8ffe6;
-    font-size: 30pt;
+    font-size: 27.5pt;
     margin-bottom: 5px;
 }
 
@@ -37,9 +37,10 @@ table {
 td, p {
     padding: 8px;
     margin: 0%;
-}   
+    font-size: 30pt;
+}
 
-table > hr {
+td > hr {
     border: 3.5px solid #4c4a5fec;
     border-radius: 4px;
     display: none;
