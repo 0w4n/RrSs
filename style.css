@@ -14,11 +14,17 @@ body {
     color: #f0f8ffe6;
     font-size: 30pt;
     margin-bottom: 5px;
-    display: inline-block;
 }
 
 .mas {
     color: #82c301f2;
+}
+
+.table-div {
+    display: inline-flex;
+}
+.table-div > table{
+    margin: 10px;
 }
 
 table {
@@ -33,18 +39,24 @@ td, p {
     margin: 0%;
 }   
 
+table > hr {
+    border: 3.5px solid #4c4a5fec;
+    border-radius: 4px;
+    display: none;
+}
+
 .numero-1 {
     color: #E53A62;
 
 }
 
 .numero-2 {
-    color: #3C77DC;
+    color: #3c77dc;
 
 }
 
 .numero-3 {
-    color: #E53A62;
+    color: #e53a62;
 
 }
 
